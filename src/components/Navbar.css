@@ -1,0 +1,41 @@
+/* Estilos de Navbar */
+.navbar {
+  width: 100%;
+  position: fixed; /* Fijar en la parte superior */
+  top: 0;
+  left: 0;
+  background-color: #222;
+  padding: 20px 0; /* Espaciado superior e inferior */
+  display: flex;
+  justify-content: center; /* Centrar los elementos */
+  align-items: center;
+  box-shadow: 0px 4px 6px rgba(0, 0, 0, 0.1);
+}
+
+/* Navegación */
+.nav-links {
+  list-style: none;
+  display: flex;
+  justify-content: center; /* Centrar los elementos */
+  gap: 50px; /* Espaciado mayor entre opciones */
+  padding: 0;
+}
+
+.nav-links li a {
+  text-decoration: none;
+  color: white;
+  font-size: 24px; /* Aumentar el tamaño de la letra */
+  font-weight: bold; /* Hacerla más visible */
+  transition: 0.3s ease;
+  padding: 12px 20px; /* Mejor espaciado */
+}
+
+.nav-links li a:hover {
+  color: #ff9800;
+  border-bottom: 3px solid #ff9800; /* Ajustar efecto hover */
+}
+
+/* Ajustar margen superior del contenido */
+body {
+  padding-top: 90px; /* Margen suficiente para evitar solapamiento con el navbar */
+}

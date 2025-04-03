@@ -1,0 +1,33 @@
+/* Aumentar tamaño de fuente global y centrar el contenido */
+body {
+  font-size: 26px;
+  line-height: 1.8;
+  font-family: Arial, sans-serif;
+  color: white;
+  background-color: #222;
+  padding-top: 100px;
+  display: flex; /* Activar flexbox */
+  justify-content: center; /* Centrar horizontalmente */
+  align-items: center; /* Centrar verticalmente */
+  height: 100vh; /* Ajustar el tamaño del contenedor */
+  text-align: center;
+}
+
+/* Contenedor principal */
+.main-container {
+  max-width: 800px; /* Limitar el ancho para que no sea demasiado extenso */
+  padding: 20px;
+}
+
+/* Estilo para títulos */
+h1 {
+  font-size: 40px;
+  font-weight: bold;
+  margin-bottom: 20px;
+}
+
+/* Estilo para párrafos */
+p {
+  font-size: 24px;
+  margin-bottom: 15px;
+}
